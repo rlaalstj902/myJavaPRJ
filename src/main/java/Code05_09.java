@@ -4,7 +4,7 @@ public class Code05_09 {
         Scanner s = new Scanner(System.in);
         int select;
 
-        System.out.print("1~3중에 선책하세요 : ");
+        System.out.print("1~3중에 선택하세요 : ");
         select = s.nextInt();
 
         switch(select) {
