@@ -2,10 +2,9 @@ import java.util.Scanner;
 public class Quiz03 {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
-        int num;
 
         System.out.print("숫자 입력 : ");
-        num = s.nextInt();
+        int num = s.nextInt();
 
         if (num%21 == 0) {
             System.out.println("3과 7의 배수입니다. ");
