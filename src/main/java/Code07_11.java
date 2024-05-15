@@ -1,4 +1,4 @@
-class Rabbit4 {
+class Rabbit9 {
     String shape;
     int xPos;
     int yPos;
@@ -13,21 +13,21 @@ class Rabbit4 {
 
 public class Code07_11 {
     public static void main(String[] args) {
-        Rabbit rabbit1 = new Rabbit();
-        Rabbit rabbit2 = new Rabbit();
-        Rabbit rabbit3 = new Rabbit();
+        Rabbit rabbit4 = new Rabbit();
+        Rabbit rabbit5 = new Rabbit();
+        Rabbit rabbit6 = new Rabbit();
 
-        rabbit1.shape = "원";
-        rabbit2.shape = "삼각형";
-        rabbit3.shape = "토끼";
+        rabbit4.shape = "원";
+        rabbit5.shape = "삼각형";
+        rabbit6.shape = "토끼";
 
-        System.out.println("rabbit1.shape : " + rabbit1.shape);
-        System.out.println("rabbit2.shape : " + rabbit2.shape);
-        System.out.println("rabbit3.shape : " + rabbit3.shape);
+        System.out.println("rabbit4.shape : " + rabbit4.shape);
+        System.out.println("rabbit5.shape : " + rabbit5.shape);
+        System.out.println("rabbit6.shape : " + rabbit6.shape);
 
-        rabbit1.setPosition(100, 100);
-        rabbit2.setPosition(-100, 100);
-        rabbit3.setPosition(0, -100);
+        rabbit4.setPosition(100, 100);
+        rabbit5.setPosition(-100, 100);
+        rabbit6.setPosition(0, -100);
 
     }
 }
