@@ -19,6 +19,7 @@ public class Exxam05 {
                 if (i % 3 == 0) {
                     System.out.println(i);
                 }
+
             }
         }
     }
