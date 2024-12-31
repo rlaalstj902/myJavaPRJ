@@ -12,6 +12,7 @@ public class Code241231 {
         }
 
         System.out.println(answer);
+
     }
 }
 
