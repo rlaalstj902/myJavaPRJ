@@ -6,7 +6,7 @@ public class Code241231 {
         int number = sc.nextInt();
         int answer = 0;
 
-        for (; number > 0; ) { // 조건을 수정하여 number가 0보다 클 동안 반복
+        for (; number > 0; ) {
             answer += number % 100;
             number /= 100;
         }
