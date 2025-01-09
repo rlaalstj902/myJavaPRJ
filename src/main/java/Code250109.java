@@ -13,7 +13,6 @@ public class Code250109 {
         else if (age_type.equals("Year")) {
             answer = 2030 - year;
         }
-
         System.out.println(answer);
     }
 }
